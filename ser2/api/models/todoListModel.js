@@ -38,7 +38,7 @@ var TaskSchema = new Schema({
         default: ''
     },
     commentt:{
-      type:String,
+      type:Array,
         Required: 'Kindly enter the name of the task'
     }
 
